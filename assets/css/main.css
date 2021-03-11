@@ -180,7 +180,7 @@ section{
 	font-size: 18px;
 	font-weight: bolder;
 	padding: 12px 50px;
-	left: calc(50% - 89px);
+	left: calc(50% - 130px);
 	border-radius: 0;
 	color: white;
 	background: #080808 !important;
@@ -190,6 +190,7 @@ section{
 @media (max-width: 991px){
 	.btn-header{
 		bottom: 30px;
+		left: calc(50% - 35%);
 	}
 }
 
@@ -607,7 +608,7 @@ section{
   margin: 8px;
 } */
 footer{
-	background: #222831;
+	background: black;
 	font-family: Poppins, cursive;
 	color: white;
 	padding: 30px;
