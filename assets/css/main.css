@@ -101,6 +101,12 @@ section{
 .navbar-toggle{
 	border-radius: 0;
 }
+#lounge {
+	position: absolute; 
+	top: 40%;
+	left: 17%; 
+	color: #fff;"
+}
 @media (min-width: 768px){
 	.navbar-brand img{
 		width: 110px;
@@ -109,10 +115,15 @@ section{
 	.navbar-nav>li>a{
 		padding-top: 30px;
 		padding-bottom: 30px;
+	}
+	
+}
+@media (max-width: 991px) {
+	#lounge { 
+		margin: 0px 50px;
+		
 	}	
 }
-
-
 
 
 
@@ -211,7 +222,34 @@ section{
 	}
 }
 
-
+@media (max-width: 450px) {
+	.btn-header{
+		bottom: 80px;
+		left: calc(50% - 32%);
+	}
+}
+@media (max-width: 350px) {
+	.btn-header{
+		bottom: 80px;
+		left: calc(50% - 43%);
+	}
+	.intro h1{
+		/* position: relative;
+		color: #fff;
+		font-size: 40px;
+		text-transform: capitalize;
+		line-height: 1.5;
+		text-align: left; */
+		/* max-width: 90%; */
+		color: #ffffff;
+		font-weight: 300;
+		/* font-family: "Playfair Display", serif; */
+		font-size: 25px;
+		line-height: 50px;
+		position: relative;
+		z-index: 8;
+	}
+}
 
 
 
